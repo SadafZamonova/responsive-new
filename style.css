@@ -1,0 +1,54 @@
+.fon {
+    position: absolute;
+    /*width: 47.5vw;*/
+    height: 156%;
+    left: 55%;
+    top: 15%;
+    z-index: -1;
+}
+
+.girl {
+    position: absolute;
+    width: 47.5vw;
+    left: 55%;
+    bottom: -70%;
+    z-index: -1;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 6fr;
+    /*border: 1px solid black;*/
+    margin: 3%;
+}
+
+.container a {
+    text-decoration-line: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+}
+
+.container a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5.5%;
+    font-size: 400%;
+    vertical-align: -70%;
+    padding-top: 15%;
+    color: #818181;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 50%;
+    padding-top: 28%;
+
+    text-align: center;
+}
